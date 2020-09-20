@@ -3,6 +3,7 @@ body {
   color: white;
   font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 20px;
+  margin:0px;
   
 }
 
@@ -13,8 +14,17 @@ body {
 
 #home-img {
   height: 300px;
-  width: 1350px;
-  object-fit:fill;
+  width: 340px;
+  object-fit:cover;
+}
+.home-img-footer {
+  display: flex;
+  flex-direction: row;
+}
+.footerImage {
+   height: 300px;
+  width: 337px;
+  object-fit:cover;
 }
 footer {
   display: flex;
